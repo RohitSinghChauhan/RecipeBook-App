@@ -1,6 +1,6 @@
 <h1 align="center">Recipe Book App</h1>
 
-<h3 align="center">Recipe book is a web app which is used for seeing recipe catalogues with detailed informations, It is a handy recipe book.</h3>
+<h3 align="center">Recipe book  is a web app which is used for seeing recipe catalogues with detailed informations.</h3>
 
 <br />
 
