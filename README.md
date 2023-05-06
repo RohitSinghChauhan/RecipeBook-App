@@ -24,11 +24,9 @@
 
 ## Screens 
 - Homepage / Landing Page
-- Product Listing Page 
-- Product Description Page
-- Cart Management Page
-- Checkout Page
-- Login / Logout Page
+- Navbar with Login & Signup modal
+- User Profile section
+- Redux state management
  
 
 
@@ -36,9 +34,9 @@
 
 
 ## 🚀 Features
-- Responsiveness
+- Authentication
+- API integration
 - Login and Signup User Account
-- Cart Add and Remove Items 
 - Routes for redirections 
  
 
