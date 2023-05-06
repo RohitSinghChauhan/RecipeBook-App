@@ -1,4 +1,4 @@
-import { Button, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, useDisclosure, ModalFooter } from "@chakra-ui/react";
+import { Button, FormControl, FormLabel, Input, Text, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, useDisclosure, ModalFooter } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from '../redux/auth/auth.actions';
@@ -50,6 +50,7 @@ function LoginModal() {
                 <ModalOverlay />
                 <ModalContent>
                     <ModalHeader>Log in to your account</ModalHeader>
+                    <Text ml='1.5rem'>First time logging in would take some time, be patient.</Text>
                     <ModalCloseButton />
                     <ModalBody pb={6}>
                         <FormControl>

@@ -1,6 +1,6 @@
-import { Button, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, useDisclosure, ModalFooter } from "@chakra-ui/react";
+import { Button, FormControl, FormLabel, Input, Modal, Text, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, useDisclosure, ModalFooter } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import axios from "axios";
 
 const initFormData = {
@@ -13,8 +13,6 @@ function SignupModal() {
 
     const [formData, setFormData] = useState(initFormData);
 
-    const dispatch = useDispatch();
-
     const initialRef = React.useRef(null)
     const finalRef = React.useRef(null)
 
@@ -24,7 +22,7 @@ function SignupModal() {
     }
 
     const signUp = async () => {
-        await axios.post(`https://recipe-backend-46rd.onrender.com/user/signup`, formData);
+        await axios.post(`${process.env.REACT_APP_DB_URL}/user/signup`, formData);
     }
 
     const handleSubmit = (e) => {
@@ -56,6 +54,7 @@ function SignupModal() {
                 <ModalOverlay />
                 <ModalContent>
                     <ModalHeader>Create your account</ModalHeader>
+                    <Text ml='1.5rem'>First time signing up would take some time, be patient.</Text>
                     <ModalCloseButton />
                     <ModalBody pb={6}>
                         <FormControl>

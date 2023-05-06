@@ -5,6 +5,7 @@ import { logout } from '../redux/auth/auth.actions';
 import { Link, useNavigate } from 'react-router-dom';
 import LoginModal from './LoginModal';
 import SignupModal from './SignupModal';
+import { CgProfile } from 'react-icons/cg';
 
 const Navbar = () => {
     const isAuth = useSelector(store => store.auth.isAuth);
@@ -31,6 +32,9 @@ const Navbar = () => {
                         <Button onClick={handleClick} borderRadius='none' bgColor='green.500' colorScheme='green'>Log out</Button>
                     }
                     <SignupModal />
+                    <Link to='/profile'>
+                        <CgProfile size='2rem' />
+                    </Link>
                 </Flex>
             </Flex>
         </>
