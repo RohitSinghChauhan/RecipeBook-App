@@ -1,6 +1,6 @@
-<h1 align="center">Mytheresa Clone</h1>
+<h1 align="center">Recipe Book App</h1>
 
-<h3 align="center">Mytheresa is an online shopping destination for children, men and women's luxury clothing, bags, shoes, and accessories.</h3>
+<h3 align="center">Recipe book is a web app which is used for seeing recipe catalogues with detailed informations, It is a handy recipe book.</h3>
 
 <br />
 
@@ -28,7 +28,7 @@
 - User Profile section
 - Redux state management
  
-
+<img src="https://postimg.cc/rdjqG890" alt="image1" />
 
 <br />
 
