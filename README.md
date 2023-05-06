@@ -40,6 +40,12 @@
 - Login and Signup User Account
 - Routes for redirections 
  
+ ![Screenshot (28)](https://user-images.githubusercontent.com/101378760/236643081-944721f9-992e-446e-95db-8f8b0210dda9.png)
+
+
+![Screenshot (29)](https://user-images.githubusercontent.com/101378760/236643094-871091bd-ede3-41d6-976e-aaa42655b886.png)
+
+![Screenshot (30)](https://user-images.githubusercontent.com/101378760/236643107-332ac52b-82ff-4bf7-8c94-a322bb7680e6.png)
 
 <br />
  
