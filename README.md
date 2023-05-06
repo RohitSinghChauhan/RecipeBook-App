@@ -28,7 +28,7 @@
 - User Profile section
 - Redux state management
  
-<img src="https://postimg.cc/rdjqG890" alt="image1" />
+<img src="[https://postimg.cc/rdjqG890](https://i.postimg.cc/FR514zdZ/Screenshot-27.png)" alt="image1" />
 
 <br />
 
