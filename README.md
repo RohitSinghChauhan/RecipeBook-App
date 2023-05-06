@@ -29,8 +29,7 @@
 - Redux state management
  
 HOMEPAGE
-![Screenshot (27)](https://user-images.githubusercontent.com/101378760/236643059-8fdbbbb6-b936-4fc8-8d40-c2ae6d6a2ff0.png)
-
+![Screenshot (28)](https://user-images.githubusercontent.com/101378760/236643081-944721f9-992e-446e-95db-8f8b0210dda9.png)
 
 <br />
 
@@ -41,7 +40,6 @@ HOMEPAGE
 - Login and Signup User Account
 - Routes for redirections 
  
-![Screenshot (28)](https://user-images.githubusercontent.com/101378760/236643081-944721f9-992e-446e-95db-8f8b0210dda9.png)
 
 SEARCH FOR ANY QUERY IN THE SEARCH BAR
 ![Screenshot (29)](https://user-images.githubusercontent.com/101378760/236643094-871091bd-ede3-41d6-976e-aaa42655b886.png)
