@@ -28,7 +28,8 @@
 - User Profile section
 - Redux state management
  
-<img src="https://postimg.cc/rdjqG890](https://i.postimg.cc/FR514zdZ/Screenshot-27.png" alt="image1" />
+![Screenshot (27)](https://user-images.githubusercontent.com/101378760/236643059-8fdbbbb6-b936-4fc8-8d40-c2ae6d6a2ff0.png)
+
 
 <br />
 
